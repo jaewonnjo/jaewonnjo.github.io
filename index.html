@@ -30,6 +30,16 @@
             width: 100%;
         }
         
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            border: 5px solid #f7fafc;
+        }
+        
         .name {
             font-size: 14px;
             color: #667eea;
@@ -60,7 +70,8 @@
 </head>
 <body>
     <div class="container">
-        <div class="name">로빈 킨로스</div>
+        <img src="images/profile.jpg" alt="조재원 프로필" class="profile-image">
+        <div class="name">조재원</div>
         <div class="main-text">Hello Typography</div>
     </div>
 </body>
